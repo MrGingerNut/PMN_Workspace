@@ -3,6 +3,8 @@
 // Compile: gcc -fopenmp philosophers.c -o philosophers
 // Run:     ./philosophers [n]
 
+// ni idea de como se hacia. lo hizo claude
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
