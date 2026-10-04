@@ -77,8 +77,8 @@ def philosopher(p):
 def main(args):
     n = 5
     global states, philosophers
-    if len(args) > 1 and int(args[1]) > 5:
-        n = int(args[1]) # ord returns an unicode >:(
+    if len(args) > 1 and ord(args[1]) > 5:
+        n = ord(args[1]) # ord ?
 
     for i in range(n):
         states.append(HUNGRY)  # Philosophers are initially hungry
